@@ -98,7 +98,7 @@ lista = [1, "natpis", 3,4]
 ima_string = False
 ima_brojeve = False
 for element in lista:
-    if isinstance(element, int):
+    if isinstance(element, str):
         ima_string = True
     elif isinstance(element, (int, float)):
         ima_brojeve = True

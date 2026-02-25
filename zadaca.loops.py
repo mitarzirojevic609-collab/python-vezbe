@@ -55,8 +55,7 @@ for num in ocene:
 print(f"broj parnih brojevi: {number_of_even} a broj neparvnih brojeva je {number_of_odd}")
 #zadatak 7
 temperatura = (20,15,25,27,22,13,11)
-prosecna_temperatura = temperatura
-prosecna_temperatura = sum(temperatura) / len(prosecna_temperatura)
+prosecna_temperatura = sum(temperatura) / len(temperatura)
 print(prosecna_temperatura)
 if prosecna_temperatura <= 15:
     print("hladno")
@@ -102,11 +101,11 @@ for broj in brojevi:
     print(zbir)
 #zadatak 13
 lista_recenica = ["ovo je recenica", "ovo je recenica sa dvadeset karaktera", "ovo nije"]
-zbir_karaktera = 0
+broj_recenica = 0
 for ukupno in lista_recenica:
     if len(ukupno) > 10:
-        zbir_karaktera += 1
-print(f"ukupno imamo: {zbir_karaktera} recenice sa deset karaktera")
+        broj_recenica += 1
+print(f"ukupno imamo: {broj_recenica} recenice sa deset karaktera")
 #zadatak 14
 brojevi = [-5,-4,2,1,-7,9,10,-12,14,0]
 nova_kvad_list = []
