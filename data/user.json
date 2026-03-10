@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Tomislav Nikolic",
+    "age": 31,
+    "height" : 181,
+    "gender" : "male"
+
+},
+
+  {
+    "name": "Nikola Pavlovic",
+    "age": 25,
+    "height" : 165,
+    "gender" : "male"
+  },
+
+  {
+    "name": "Marija Jovic",
+    "age": 22,
+    "height" : 170,
+    "gender" : "Female"
+
+
+
+
+  }
+
+
+
+
+
+]
