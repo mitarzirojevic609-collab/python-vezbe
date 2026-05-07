@@ -1,0 +1,22 @@
+import tkinter as tk
+from src.components.navigations import show_navigation, switch_navigation_window
+from src.components.body_frame import show_body_frame
+
+
+
+def init():
+    window = tk.Tk()
+    window.geometry("1080x720")
+
+    navigation = show_navigation(window)
+    content = show_body_frame(window)
+
+    navigation.bind("<<ListboxSelect>>", lambda event: switch_navigation_window(event, content))
+
+
+
+
+
+    window.mainloop()
+
+init()
